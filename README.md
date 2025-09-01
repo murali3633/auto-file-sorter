@@ -93,8 +93,9 @@ Downloads/
 
 ```
 
-```
+
 **After running the script:**
+```
 Downloads/
 ├── PDFs/project.pdf
 ├── Images/photo.png
