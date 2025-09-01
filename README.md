@@ -1,3 +1,5 @@
+
+```markdown
 # 🗂️ Python File Organizer
 
 A simple Python script that automatically organizes files into folders based on their extensions (PDFs, Images, Docs, Music, Videos, Others).  
@@ -20,12 +22,14 @@ This project demonstrates **automation using Python**.
 ---
 
 ## 📂 Project Structure
+```
+
 File-Organizer/
-│-- file_organizer.py # Main script
-│-- README.md # Documentation
-│-- /TestFiles # (Optional) Put sample files here for testing
+│-- file\_organizer.py   # Main script
+│-- README.md           # Documentation
+│-- /TestFiles          # (Optional) Put sample files here for testing
 
-
+````
 
 ---
 
@@ -35,38 +39,62 @@ File-Organizer/
    ```bash
    git clone https://github.com/yourusername/file-organizer.git
    cd file-organizer
-   
+````
+
 2. Run the script:
+
+   ```bash
    python file_organizer.py
+   ```
 
-3. Place files in the target folder → script will create subfolders (PDFs, Images, Docs, etc.) and move files accordingly.
+3. Place files in the target folder → script will create subfolders (`PDFs`, `Images`, `Docs`, etc.) and move files accordingly.
 
-   🔧 Configuration
+---
 
-By default, the script organizes files in the same folder where it is placed.
- - If you want to specify a custom folder, edit this line in file_organizer.py:
+## 🔧 Configuration
 
-Or keep it auto-detecting current folder:
- - folder_to_organize = os.path.dirname(os.path.abspath(__file__))
+By default, the script organizes files in the **same folder where it is placed**.
 
-   🖼️ Example
+* If you want to specify a **custom folder**, edit this line in `file_organizer.py`:
 
-Before:
+  ```python
+  folder_to_organize = r"C:\Users\YourName\Downloads\filesorter"
+  ```
 
+* Or keep it **auto-detecting current folder**:
+
+  ```python
+  folder_to_organize = os.path.dirname(os.path.abspath(__file__))
+  ```
+
+---
+
+## 🖼️ Example
+
+**Before:**
+
+```
 Downloads/
 ├── project.pdf
 ├── photo.png
 ├── resume.docx
 ├── song.mp3
 ├── randomfile.xyz
+```
 
+**After running the script:**
 
-After running the script:
-
+```
 Downloads/
 ├── PDFs/project.pdf
 ├── Images/photo.png
 ├── Docs/resume.docx
 ├── Music/song.mp3
 ├── Others/randomfile.xyz
+```
 
+
+✅ Now it’s properly structured for GitHub — all code blocks and folder structures will render correctly.  
+
+Would you like me to also suggest a **short GitHub project description (one-liner tagline under repo name)** that you can paste when creating the repo?
+```
