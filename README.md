@@ -37,8 +37,8 @@ File-Organizer/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/file-organizer.git
-   cd file-organizer
+   git clone https://github.com/yourusername/python-file-organizer.git
+   cd python-file-organizer
 ````
 
 2. Run the script:
@@ -48,6 +48,19 @@ File-Organizer/
    ```
 
 3. Place files in the target folder → script will create subfolders (`PDFs`, `Images`, `Docs`, etc.) and move files accordingly.
+
+---
+
+## 🛠️ How It Works
+
+1. The script scans all files inside the selected folder.
+2. It checks each file’s **extension** (e.g., `.pdf`, `.jpg`, `.docx`).
+3. Based on the extension, it decides the **category** (PDFs, Images, Docs, etc.).
+4. If the target category folder does not exist, it is created automatically.
+5. The file is then **moved** into the correct folder using Python’s `shutil.move()`.
+6. If a file doesn’t match any category, it is moved into the **Others** folder.
+
+This ensures your folder stays clean and organized automatically.
 
 ---
 
@@ -94,3 +107,5 @@ Downloads/
 ```
 
 
+Do you want me to also prepare a **`requirements.txt`** (even though this script only uses built-in Python libraries) just so your repo looks more professional?
+```
