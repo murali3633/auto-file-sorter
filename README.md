@@ -83,7 +83,7 @@ By default, the script organizes files in the **same folder where it is placed**
 ## 🖼️ Example
 
 **Before:**
-
+```
 Downloads/
 ├── project.pdf
 ├── photo.png
@@ -91,7 +91,7 @@ Downloads/
 ├── song.mp3
 ├── randomfile.xyz
 
-
+```
 **After running the script:**
 Downloads/
 ├── PDFs/project.pdf
