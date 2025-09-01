@@ -35,3 +35,38 @@ File-Organizer/
    ```bash
    git clone https://github.com/yourusername/file-organizer.git
    cd file-organizer
+   
+2. Run the script:
+   python file_organizer.py
+
+3. Place files in the target folder → script will create subfolders (PDFs, Images, Docs, etc.) and move files accordingly.
+
+   🔧 Configuration
+
+By default, the script organizes files in the same folder where it is placed.
+ - If you want to specify a custom folder, edit this line in file_organizer.py:
+
+Or keep it auto-detecting current folder:
+ - folder_to_organize = os.path.dirname(os.path.abspath(__file__))
+
+   🖼️ Example
+
+Before:
+
+Downloads/
+├── project.pdf
+├── photo.png
+├── resume.docx
+├── song.mp3
+├── randomfile.xyz
+
+
+After running the script:
+
+Downloads/
+├── PDFs/project.pdf
+├── Images/photo.png
+├── Docs/resume.docx
+├── Music/song.mp3
+├── Others/randomfile.xyz
+
