@@ -34,16 +34,16 @@ File-Organizer/
 ## ⚙️ Installation & Usage
 
 1. Clone the repository:
-   ```bash
+ 
    git clone https://github.com/yourusername/python-file-organizer.git
    cd python-file-organizer
-````
+
 
 2. Run the script:
 
-   ```bash
+   `
    python file_organizer.py
-   ```
+  
 
 3. Place files in the target folder → script will create subfolders (`PDFs`, `Images`, `Docs`, etc.) and move files accordingly.
 
