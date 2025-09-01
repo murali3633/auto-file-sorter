@@ -94,7 +94,3 @@ Downloads/
 ```
 
 
-✅ Now it’s properly structured for GitHub — all code blocks and folder structures will render correctly.  
-
-Would you like me to also suggest a **short GitHub project description (one-liner tagline under repo name)** that you can paste when creating the repo?
-```
