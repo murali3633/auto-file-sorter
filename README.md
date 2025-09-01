@@ -92,6 +92,8 @@ Downloads/
 ├── randomfile.xyz
 
 ```
+
+```
 **After running the script:**
 Downloads/
 ├── PDFs/project.pdf
@@ -100,5 +102,5 @@ Downloads/
 ├── Music/song.mp3
 ├── Others/randomfile.xyz
 
-
+```
 
