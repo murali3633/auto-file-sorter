@@ -41,7 +41,7 @@ File-Organizer/
 
 2. Run the script:
 
-   `
+   
    python file_organizer.py
   
 
@@ -68,15 +68,15 @@ By default, the script organizes files in the **same folder where it is placed**
 
 * If you want to specify a **custom folder**, edit this line in `file_organizer.py`:
 
-  ```python
+  
   folder_to_organize = r"C:\Users\YourName\Downloads\filesorter"
-  ```
+  
 
 * Or keep it **auto-detecting current folder**:
 
-  ```python
+ 
   folder_to_organize = os.path.dirname(os.path.abspath(__file__))
-  ```
+  
 
 ---
 
@@ -84,22 +84,22 @@ By default, the script organizes files in the **same folder where it is placed**
 
 **Before:**
 
-```
+
 Downloads/
 ├── project.pdf
 ├── photo.png
 ├── resume.docx
 ├── song.mp3
 ├── randomfile.xyz
-```
+
 
 **After running the script:**
 
-```
+
 Downloads/
 ├── PDFs/project.pdf
 ├── Images/photo.png
 ├── Docs/resume.docx
 ├── Music/song.mp3
 ├── Others/randomfile.xyz
-```
+
