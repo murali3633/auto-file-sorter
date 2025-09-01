@@ -105,7 +105,3 @@ Downloads/
 ├── Music/song.mp3
 ├── Others/randomfile.xyz
 ```
-
-
-Do you want me to also prepare a **`requirements.txt`** (even though this script only uses built-in Python libraries) just so your repo looks more professional?
-```
