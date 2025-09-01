@@ -84,7 +84,6 @@ By default, the script organizes files in the **same folder where it is placed**
 
 **Before:**
 
-
 Downloads/
 ├── project.pdf
 ├── photo.png
@@ -94,12 +93,12 @@ Downloads/
 
 
 **After running the script:**
-
-
 Downloads/
 ├── PDFs/project.pdf
 ├── Images/photo.png
 ├── Docs/resume.docx
 ├── Music/song.mp3
 ├── Others/randomfile.xyz
+
+
 
