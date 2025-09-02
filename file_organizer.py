@@ -1,7 +1,7 @@
 import os
 import shutil
 
-# Define file categories
+# Define file categories 
 FILE_CATEGORIES = {
     "PDFs": [".pdf"],
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
@@ -52,3 +52,4 @@ if __name__ == "__main__":
     folder_to_organize = r"C:\Users\91739\Downloads\filesorter"
 
     organize_files(folder_to_organize)
+
