@@ -10,7 +10,7 @@ FILE_CATEGORIES = {
     "Videos": [".mp4", ".mkv", ".avi"],
     "Others": []
 }
-
+ 
 def organize_files(source_folder):
     # Make sure the folder exists
     if not os.path.exists(source_folder):
@@ -52,4 +52,5 @@ if __name__ == "__main__":
     folder_to_organize = r"C:\Users\91739\Downloads\filesorter"
 
     organize_files(folder_to_organize)
+
 
