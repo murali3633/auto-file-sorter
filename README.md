@@ -16,7 +16,7 @@ This project demonstrates **automation using Python**.
 - Creates folders automatically if they don’t exist.
 - Works on **Windows, Mac, and Linux**.
 - Easy to customize with your own categories and extensions.
-
+ 
 ---
 
 ## 📂 Project Structure
