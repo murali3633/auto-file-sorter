@@ -5,7 +5,7 @@ This project demonstrates **automation using Python**.
 
 ---
 
-## 🚀 Features
+## 🚀 Features 
 - Automatically sorts files into categorized folders:
   - **PDFs** → `.pdf`
   - **Images** → `.jpg`, `.jpeg`, `.png`, `.gif`
