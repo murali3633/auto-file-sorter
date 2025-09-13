@@ -1,7 +1,7 @@
 
 # 🗂️ Python File Organizer
 A simple Python script that automatically organizes files into folders based on their extensions (PDFs, Images, Docs, Music, Videos, Others).  
-This project demonstrates **automation using Python**.
+This project demonstrates **automation using Python**. 
 
 ---
  
