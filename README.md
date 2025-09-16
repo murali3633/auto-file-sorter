@@ -4,7 +4,7 @@ A simple Python script that automatically organizes files into folders based on 
 This project demonstrates **automation using Python**. 
 
 ---
- 
+  
 ## 🚀 Features 
 - Automatically sorts files into categorized folders:
   - **PDFs** → `.pdf`
